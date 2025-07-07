@@ -10,7 +10,7 @@ We trained and evaluated multiple models to determine the most accurate approach
 
 ## 📁 Dataset
 
-* **Source**: https://in.docworkspace.com/d/sIGrRruWdAsS6sMMG?sa=601.1037
+* **Source**: https://www.kaggle.com/datasets/victorsabanzagil/polymers/data
 * **Samples**: 20,609 polymer molecules
 * **Features**: 2048 binary molecular fingerprint bits (indicating substructure presence)
 * **Target**: Polymer class (e.g., plastic, peptide, oligosaccharide)
