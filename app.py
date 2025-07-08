@@ -33,8 +33,8 @@ if uploaded_file:
         X_scaled = scaler.transform(X_new)
 
         # Predict
-        y_pred = model.predict(X_scaled)
-        y_label = le.inverse_transform(y_pred)
+       y_pred = model.predict(X_scaled)
+       y_label = y_pred  
 
         st.subheader("🔍 Predicted Polymer Types")
         st.success("✅ Successfully predicted! Here's the result:")
