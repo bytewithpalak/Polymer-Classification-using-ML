@@ -52,8 +52,7 @@ All models were evaluated using:
 XGBoost was chosen for deployment due to its balance of speed, scalability, and high accuracy.
 
 ---
-
-## 💾 Model Saving
+## 🌐 Web App Deployment
 
 The selected model and LabelEncoder were saved using `joblib` for use in the app:
 
@@ -61,6 +60,13 @@ The selected model and LabelEncoder were saved using `joblib` for use in the app
 joblib.dump(xgb_model, 'best_model.pkl')
 joblib.dump(encoder, 'label_encoder.pkl')
 ```
+---
+
+To demonstrate the model in action, a **Streamlit web app** was developed using the final trained classifier.  
+The app allows users to upload polymer fingerprint data and receive instant predictions of polymer class (e.g., plastic, peptide, oligosaccharide, etc.).
+
+👉 For complete details, usage instructions, and to try the app yourself, check out the app repository:  
+🔗 [https://github.com/bytewithpalak/Polymer-Classification-app](https://github.com/bytewithpalak/Polymer-Classification-app)
 
 
 ## 📌 Final Thoughts
